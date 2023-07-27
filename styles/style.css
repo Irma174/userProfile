@@ -1,10 +1,10 @@
 @font-face {
-    src: url('../fonts/FuturaNewMedium-Reg.ttf');
+    src: url('./fonts/FuturaNewMedium-Reg.ttf');
     font-family: 'Futura New';
 }
 
 @font-face {
-    src: url('../fonts/futurabookc.ttf');
+    src: url('./fonts/futurabookc.ttf');
     font-family: 'Futura BookC';
 }
 
