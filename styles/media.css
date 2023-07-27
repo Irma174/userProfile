@@ -1,0 +1,169 @@
+@media screen and (max-width: 1024px) {
+
+    .ps_menu__header,
+    .ps_menu__logo,
+    .ps_footer__logo {
+        margin: 15px auto;
+    }
+
+    .ps_menu__inner,
+    .ps_menu__nav,
+    .ps_footer__search,
+    .ps_footer__blok {
+        flex-direction: column;
+    }
+
+    .ps__menu_line {
+        content: '';
+        width: 10%;
+        height: 1px;
+        margin: 10px auto;
+    }
+
+    .ps_page__grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px;
+        grid-auto-rows: 140px;
+    }
+
+    .ps_page {
+        padding-left: 15px;
+        margin-bottom: 90px;
+    }
+
+    .ps_footer__blok {
+        padding-top: 20px;
+    }
+
+    .ps_menu__icon-phone {
+        margin-right: 45px;
+    }
+
+    .ps_footer {
+        padding-top: 20px;
+    }
+
+    .ps_footer__blok-1 {
+        padding: 30px 0;
+    }
+
+    .ps_footer__blok-2 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .ps_footer__search {
+        align-content: stretch;
+    }
+
+    .ps_footer__line {
+        max-width: 50%;
+    }
+
+    .ps_footer__about {
+        flex-direction: column;
+        align-content: stretch;
+        padding-top: 60px;
+    }
+
+    .ps_footer__copyright {
+        padding-top: 25px;
+        margin: 0 auto;
+    }
+
+    .ps_footer__logo {
+        margin: 0 auto;
+    }
+
+    .ps_footer__input {
+        margin-left: 25px;
+    }
+
+    .ps_page3__container,
+    .ps_main__page2 {
+        max-width: 840px;
+    }
+
+    .ps_page3__card {
+        max-width: 800px;
+    }
+
+    .ps_page3__items {
+        max-width: 600px;
+        height: 100%;
+        margin-right: 10px;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+    }
+
+    .ps_page2__button {
+        flex-direction: column;
+    }
+
+    .ps_page2__button-choice {
+        margin-bottom: 20px;
+    }
+
+    .ps_page2__form-condition,
+    .ps_page2__form-connection,
+    .ps_page2__form-job,
+    .ps_page2__live-event {
+        max-width: 800px;
+        height: 100%;
+    }
+
+    .title__page1 {
+        flex-direction: column;
+    }
+
+    .title__page1 li {
+        margin-bottom: 20px;
+    }
+
+    .ps_page__formPsy-grid {
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+
+    .ps_page4__card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ps_pages4__grid4 {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .ps_page5__questionary,
+    .ps_pages4__item-1-body,
+    .ps_pages4__item-2-body {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .ps_page__title {
+        font-size: 60px;
+    }
+
+    .ps_page__subtitle {
+        font-size: 40px;
+    }
+
+    .ps_items__practice {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .ps_page__title {
+        font-size: 45px;
+    }
+
+    .ps_page__subtitle {
+        font-size: 35px;
+    }
+}

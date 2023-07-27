@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета пользователя</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/media.css">
+</head>
+
+<body>
+    <header class="ps_header">
+        <div class="ps_menu__header">
+            <div class="ps_menu__inner">
+                <div class="ps_menu__logo">
+                    <div class="ps_logo-1__menu">
+                        <img src="../img/STEP UP.png" alt="logo">
+                        <div class="ps_logo-2"><img src="../img/STEP UP_U.png" alt="logo"></div>
+                    </div>
+                    <h5 class="ps_menu__inner_company-name">| A FLUENTRUSSIA Company</h5>
+                </div>
+
+                <ul class="ps_menu__nav">
+                    <li><a href="#">Как это работает</a></li>
+                    <li><a href="#">Платформа</a></li>
+                    <li><a href="#">Для Бизнеса</a></li>
+                    <li>Тренинговые сессии</li>
+                    <li>Сообщество</li>
+                    <li><a href="#">Наша миссия</a></li>
+                </ul>
+                <div class="ps__menu_line"></div>
+                <div class="ps_menu__icon">
+                    <a href="tel:+78120000000"><img class="ps_menu__icon-phone" src="../img/Icon_phone.png"
+                            alt="Icon_phone"></a>
+                    <a href="#"><img class="ps_menu__icon-arrow" src="../img/Icon_arrow.png" alt="Icon_arrow"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="ps_main">
+            <section class="ps_page">
+                <div class="ps_page__menu">
+                    <p class="ps_page__title-menu"><a href="#">Главная</a>/Подбор психолога</p>
+                    <h1 class="ps_page__title">Анкета пользователя</h1>
+                    <h2 class="ps_page__subtitle">Личные вопросы</h2>
+                    <form class="ps_page__2" id="user-profile">
+                        <div class="ps_page__grid">
+                            <div class="ps_page__item ">
+                                <label for="name" class="ps_page__item_row">Фамилия, Имя </label>
+                                <input class="ps_page__input" type="text" id="name" name="ps_name"
+                                    placeholder="Иван Иванов" required>
+                            </div>
+                            <div class="ps_page__item">
+                                <label for="age" class="ps_page__item_row">Дата рождения</label>
+                                <input class="ps_page__input" type="number" id="age" name="ps_age"
+                                    placeholder="01.01.2000" max="80" required>
+                            </div>
+                            <div class="ps_page__item">
+                                <label for="town" class="ps_page__item_row">Страна и город проживания </label>
+                                <select id="town" name="ps_town" class="ps_page__input ps_page__item-town form-select">
+                                    <option value="Москва" selected=""> Москва</option>
+                                    <option>---</option>
+                                    <option value="Калининград">Калининград</option>
+                                    <option value="Архангельск">Архангельск</option>
+                                    <option value="Астрахань">Астрахань</option>
+                                    <option value="Белгород">Белгород</option>
+                                    <option value="Брянск">Брянск</option>
+                                    <option value="Владикавказ">Владикавказ</option>
+                                    <option value="Владимир">Владимир</option>
+                                    <option value="Волгоград">Волгоград</option>
+                                    <option value="Вологда">Вологда</option>
+                                    <option value="Воронеж">Воронеж</option>
+                                    <option value="Грозный">Грозный</option>
+                                    <option value="Иваново">Иваново</option>
+                                    <option value="Ижевск">Ижевск</option>
+                                    <option value="Йошкар-Ола">Йошкар-Ола</option>
+                                    <option value="Казань">Казань</option>
+                                    <option value="Калуга">Калуга</option>
+                                    <option value="Киров">Киров</option>
+                                    <option value="Кострома">Кострома</option>
+                                    <option value="Краснодар">Краснодар</option>
+                                    <option value="Курск">Курск</option>
+                                    <option value="Липецк">Липецк</option>
+                                    <option value="Махачкала">Махачкала</option>
+                                    <option value="Мурманск">Мурманск</option>
+                                    <option value="Назрань">Назрань</option>
+                                    <option value="Нальчик">Нальчик</option>
+                                    <option value="Нарьян-Мар">Нарьян-Мар</option>
+                                    <option value="Нижний Новгород">Нижний Новгород</option>
+                                    <option value="Новгород">Новгород</option>
+                                    <option value="Орёл">Орёл</option>
+                                    <option value="Пенза">Пенза</option>
+                                    <option value="Петрозаводск">Петрозаводск</option>
+                                    <option value="Псков">Псков</option>
+                                    <option value="Ростов-на-Дону">Ростов-на-Дону</option>
+                                    <option value="Рязань">Рязань</option>
+                                    <option value="Самара">Самара</option>
+                                    <option value="Санкт-Петербург">Санкт-Петербург</option>
+                                    <option value="Саранск">Саранск</option>
+                                    <option value="Саратов">Саратов</option>
+                                    <option value="Смоленск">Смоленск</option>
+                                    <option value="Ставрополь">Ставрополь</option>
+                                    <option value="Сыктывкар">Сыктывкар</option>
+                                    <option value="Тамбов">Тамбов</option>
+                                    <option value="Тверь">Тверь</option>
+                                    <option value="Тула">Тула</option>
+                                    <option value="Ульяновск">Ульяновск</option>
+                                    <option value="Чебоксары">Чебоксары</option>
+                                    <option value="Черкесск">Черкесск</option>
+                                    <option value="Элиста">Элиста</option>
+                                    <option value="Ярославль">Ярославль</option>
+                                    <option value="Майкоп">Майкоп</option>
+                                    <option value="Екатеринбург">Екатеринбург</option>
+                                    <option value="Кудымкар">Кудымкар</option>
+                                    <option value="Курган">Курган</option>
+                                    <option value="Оренбург">Оренбург</option>
+                                    <option value="Пермь">Пермь</option>
+                                    <option value="Салехард">Салехард</option>
+                                    <option value="Тюмень">Тюмень</option>
+                                    <option value="Уфа">Уфа</option>
+                                    <option value="Ханты-Мансийск">Ханты-Мансийск</option>
+                                    <option value="Челябинск">Челябинск</option>
+                                    <option value="Барнаул">Барнаул</option>
+                                    <option value="Горно-Алтайск">Горно-Алтайск</option>
+                                    <option value="Новосибирск">Новосибирск</option>
+                                    <option value="Омск">Омск</option>
+                                    <option value="Томск">Томск</option>
+                                    <option value="Абакан">Абакан</option>
+                                    <option value="Дудинка">Дудинка</option>
+                                    <option value="Кемерово">Кемерово</option>
+                                    <option value="Красноярск">Красноярск</option>
+                                    <option value="Кызыл">Кызыл</option>
+                                    <option value="Тура">Тура</option>
+                                    <option value="Иркутск">Иркутск</option>
+                                    <option value="Улан-Удэ">Улан-Удэ</option>
+                                    <option value="Усть-Ордынский">Усть-Ордынский</option>
+                                    <option value="Чита">Чита</option>
+                                    <option value="Агинское">Агинское</option>
+                                    <option value="Благовещенск">Благовещенск</option>
+                                    <option value="Якутск">Якутск</option>
+                                    <option value="Якутск">Якутск</option>
+                                    <option value="Владивосток">Владивосток</option>
+                                    <option value="Магадан">Магадан</option>
+                                    <option value="Хабаровск">Хабаровск</option>
+                                    <option value="Южно-Сахалинск">Южно-Сахалинск</option>
+                                    <option value="Анадырь">Анадырь</option>
+                                    <option value="Палана">Палана</option>
+                                    <option value="Петропавловск-Камчатский">Петропавловск-Камчатский</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="ps_page2__questionary">
+                            <div class="ps_page2__questionary-title">
+                                <p class="ps_page2__questionary-name">Сфера профессиональной деятельности</p>
+                            </div>
+                            <div class="ps_page2__body">
+                                <div class="ps_page2__questionary-body ps_page4__form-condition">
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox" id="IT"
+                                            name="IT">
+                                        <label class="ps_page2__label" for="IT">IT</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="schooling" name="schooling">
+                                        <label class="ps_page2__label" for="schooling">Педагогика и образование</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox" id="HR"
+                                            name="HR">
+                                        <label class="ps_page2__label" for="HR">HR (управление
+                                            персоналом)</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="marketing" name="marketing">
+                                        <label class="ps_page2__label" for="marketing">Маркетинг</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="management" name="management">
+                                        <label class="ps_page2__label" for="management">Менеджмент</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="TOP-management" name="TOP-management">
+                                        <label class="ps_page2__label" for="TOP-management">ТОП-менеджмент</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="psychology" name="psychology">
+                                        <label class="ps_page2__label" for="psychology">Психология</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="design" name="design">
+                                        <label class="ps_page2__label" for="design">Дизайн и архитектура</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="tourism" name="tourism">
+                                        <label class="ps_page2__label" for="tourism">Туризм</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="science" name="science">
+                                        <label class="ps_page2__label" for="science">Наука</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox" id="legal"
+                                            name="legal">
+                                        <label class="ps_page2__label" for="legal">Юриспруденция</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="finance" name="finance">
+                                        <label class="ps_page2__label" for="finance">Бухгалтерия и финансы</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="building" name="building">
+                                        <label class="ps_page2__label" for="building">Строительство</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="property" name="property">
+                                        <label class="ps_page2__label" for="property">Недвижимость</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="journalistic" name="journalistic">
+                                        <label class="ps_page2__label" for="journalistic">Журналистика и
+                                            копирайтинг</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="logistics" name="logistics">
+                                        <label class="ps_page2__label" for="logistics">Логистика и транспорт</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="linguistics" name="linguistics">
+                                        <label class="ps_page2__label" for="linguistics">Лингвистика и перевод</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="investment" name="investment">
+                                        <label class="ps_page2__label" for="investment">Инвестиции</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox" id="sport"
+                                            name="sport">
+                                        <label class="ps_page2__label" for="sport">Спорт и фитнес</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="trading" name="trading">
+                                        <label class="ps_page2__label" for="trading">Торговля и закупки</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox" id="sales"
+                                            name="sales">
+                                        <label class="ps_page2__label" for="sales">Продажи</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="insurance" name="insurance">
+                                        <label class="ps_page2__label" for="insurance">Страхование</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                            id="medicine" name="medicine">
+                                        <label class="ps_page2__label" for="medicine">Медицина и фармацевтика</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                            id="art" name="art">
+                                        <label class="ps_page2__label" for="art">Искусство и масс-медиа</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                            id="administration" name="administration">
+                                        <label class="ps_page2__label" for="administration">Административный
+                                            персонал</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                            id="worker" name="worker">
+                                        <label class="ps_page2__label" for="worker">Рабочий персонал</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                            id="business" name="business">
+                                        <label class="ps_page2__label" for="business">Предпринимательство</label>
+                                    </div>
+                                    <!-- <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="other-professional_activity" name="other-professional_activity">
+                                    <label class="ps_page2__label" for="other-professional_activity">Другое</label>                                   
+                                </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ps_page__item ps_page__item-position">
+                            <label for="position" class="ps_page__item_row">Должность </label>
+                            <input class="ps_page__input" type="text" id="position" name="ps_position"
+                                placeholder="Менеджер" required>
+                        </div>
+                        <div class="ps_page2__questionary">
+                            <div class="ps_page2__questionary-title">
+                                <p class="ps_page2__questionary-name">Цели</p>
+                            </div>
+                            <div class="ps_page2__questionary-body ps_page2__form-connection ps_page2__questionary-purpose">
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox" id="meet_new_people"
+                                        name="meet_new_people">
+                                    <label class="ps_page2__label" for="meet_new_people">Познакомиться с новыми людьми и расшить
+                                        круг общения</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox" id="new_project"
+                                        name="new_project">
+                                    <label class="ps_page2__label" for="new_project">Узнать о новых проектах и
+                                        компаниях</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox" id="career"
+                                        name="career">
+                                    <label class="ps_page2__label" for="career">Развитие в своей профессиональной сфере
+                                        и карьерный рост</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="change_activity" name="change_activity">
+                                    <label class="ps_page2__label" for="change_activity">Сменить сферу деятельности или
+                                        работу</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="improve_relationships" name="improve_relationships">
+                                    <label class="ps_page2__label" for="improve_relationships">Улучшить отношения с
+                                        коллегами и работу в
+                                        команде</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="soft_slills" name="soft_slills">
+                                    <label class="ps_page2__label" for="soft_slills">Улучшить soft skills</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox" id="startup"
+                                        name="startup">
+                                    <label class="ps_page2__label" for="startup">Основать свой проект или
+                                        стартап</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="investors_search" name="investors_search">
+                                    <label class="ps_page2__label" for="investors_search">Найти инвесторов для своего
+                                        проекта</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox" id="invest"
+                                        name="invest">
+                                    <label class="ps_page2__label" for="invest">Инвестировать в интересный
+                                        проект</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="search_employees" name="search_employees">
+                                    <label class="ps_page2__label" for="search_employees">Найти новых сотрудников в
+                                        команду</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="organization_events" name="organization_events">
+                                    <label class="ps_page2__label" for="organization_events">Организация событий и
+                                        мероприятий</label>
+                                </div>
+                                <!-- <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="other-ambition" name="other-ambition">
+                                    <label class="ps_page2__label" for="other-ambition">Другое</label>
+                                </div> -->
+                            </div>
+                        </div>
+                        <fieldset form="user-profile" class="ps_page__item ps_page__fieldset">
+                            <legend class="ps_page__item_row">Вы больше заинтересованы в знакомствах с новыми людьми из
+                                вашей профессиональной сферы или из других?</legend>
+                            <div class="ps_page__button ps_page__button_comfort-work">
+                                <div class="ps_page__btn">
+                                    <input class="ps_page__input ps_page__input-choice" type="radio" id="anyway"
+                                        name="ps_choice">
+                                    <label for="anyway" class="ps_page__label-choice">Из своей профессиональной
+                                        сферы</label>
+                                </div>
+                                <div class="ps_page__btn">
+                                    <input class="ps_page__input ps_page__input-choice" type="radio" id="other"
+                                        name="ps_choice">
+                                    <label for="other" class="ps_page__label-choice">Из других</label>
+                                </div>
+                                <div class="ps_page__btn">
+                                    <input class="ps_page__input ps_page__input-choice" type="radio" id="both_versions"
+                                        name="ps_choice">
+                                    <label for="both_versions" class="ps_page__label-choice">Оба варианта</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div class="ps_page2__questionary">
+                            <div class="ps_page2__questionary-title">
+                                <p class="ps_page2__questionary-name">Выберите ваши основные профессиональные интересы
+                                </p>
+                            </div>
+                            <div class="ps_page2__body">
+                                <div class="ps_page2__questionary-body ps_page4__form-prof">
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_entrepreneur" name="prof_entrepreneur">
+                                        <label class="ps_page2__label" for="prof_entrepreneur">Предпренимательство</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_marketing" name="prof_marketing">
+                                        <label class="ps_page2__label" for="prof_marketing">Маркетинг</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_sales" name="prof_sales">
+                                        <label class="ps_page2__label" for="prof_sales">Продажи</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_consulting" name="prof_consulting">
+                                        <label class="ps_page2__label" for="prof_consulting">Консалтинг</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_roperty" name="prof_roperty">
+                                        <label class="ps_page2__label" for="prof_roperty">Недвижимость</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_trading" name="prof_trading">
+                                        <label class="ps_page2__label" for="prof_trading">Торговля и закупки</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_investment" name="prof_investment">
+                                        <label class="ps_page2__label" for="prof_investment">Инвестиции</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_economical" name="prof_economical">
+                                        <label class="ps_page2__label" for="prof_economical">Экономика</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_finance" name="prof_finance">
+                                        <label class="ps_page2__label" for="prof_finance">Финансы и финтех</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_cryptocurrency" name="prof_cryptocurrency">
+                                        <label class="ps_page2__label" for="prof_cryptocurrency">Криптовалюта</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_TOP-management" name="prof_TOP-management">
+                                        <label class="ps_page2__label" for="prof_TOP-management">ТОП-менеджмент</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_freelance" name="prof_freelance">
+                                        <label class="ps_page2__label" for="prof_freelance">Удаленная работа</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_coding" name="prof_coding">
+                                        <label class="ps_page2__label" for="prof_coding">Информационные технологии и
+                                            программирование</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_gamedev" name="prof_gamedev">
+                                        <label class="ps_page2__label" for="prof_gamedev">Геймдев</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_data-science" name="prof_data-science">
+                                        <label class="ps_page2__label" for="prof_data-science">Data Science и Machine
+                                            Learning</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_neuronet" name="prof_neuronet">
+                                        <label class="ps_page2__label" for="prof_neuronet">Искусственный интеллект и нейросети
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_technic" name="prof_technic">
+                                        <label class="ps_page2__label" for="prof_technic">Техника и электроника</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_education" name="prof_education">
+                                        <label class="ps_page2__label" for="prof_education">Обучение и образование</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof__legal" name="prof__legal">
+                                        <label class="ps_page2__label" for="prof__legal">Юриспруденция</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_scientific" name="prof_scientific">
+                                        <label class="ps_page2__label" for="prof_scientific">Наука и технологии</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_building" name="prof_building">
+                                        <label class="ps_page2__label" for="prof_building">Строительство</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_psychology" name="prof_psychology">
+                                        <label class="ps_page2__label" for="prof_psychology">Психология</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_journalistic" name="prof_journalistic">
+                                        <label class="ps_page2__label" for="prof_journalistic">Журналистика и копирайтинг</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_logistics" name="prof_logistics">
+                                        <label class="ps_page2__label" for="prof_logistics">Логистика и транспорт</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_HR" name="prof_HR">
+                                        <label class="ps_page2__label" for="prof_HR">Управление персоналом</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_product-managemen" name="prof_product-managemen">
+                                        <label class="ps_page2__label" for="prof_product-managemen">Управление продуктом и
+                                            проектами</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_softSkills" name="prof_softSkills">
+                                        <label class="ps_page2__label" for="prof_softSkills">Soft Skills</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_leading" name="prof_leading">
+                                        <label class="ps_page2__label" for="prof_leading">Лидерство</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="form_linguistics" name="form_linguistics">
+                                        <label class="ps_page2__label" for="form_linguistics">Лингвистика и перевод</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_design" name="prof_design">
+                                        <label class="ps_page2__label" for="prof_design">Дизайн и архитектура</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_volunteering" name="prof_volunteering">
+                                        <label class="ps_page2__label" for="prof_volunteering">Социальные проекты и
+                                            волонтерство</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_medicine" name="prof_medicine">
+                                        <label class="ps_page2__label" for="prof_medicine">Медицина и фармацевтика</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_tourism" name="prof_tourism">
+                                        <label class="ps_page2__label" for="prof_tourism">Туризм и гостиничный бизнес</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_restaurant" name="prof_restaurant">
+                                        <label class="ps_page2__label" for="prof_restaurant">Рестораны и развлечения</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_ivent" name="prof_ivent">
+                                        <label class="ps_page2__label" for="prof_ivent">Организация ивентов</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                            id="prof_sport" name="prof_sport">
+                                        <label class="ps_page2__label" for="prof_sport">Спорт и фитнес</label>
+                                    </div>
+                                    <!-- <div>
+                                        <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                            id="prof_other" name="prof_other">
+                                        <label class="ps_page2__label" for="prof_other">Другое</label>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ps_page2__questionary">
+                            <div class="ps_page2__questionary-title">
+                                <p class="ps_page2__questionary-name">Выберите ваши основные личные интересы</p>
+                            </div>
+                            <div class="ps_page2__questionary-body ps_page2__form-job ps_page2__form-interests">
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_music" name="id_music">
+                                    <label class="ps_page2__label" for="id_music">Музыка и музыкальные
+                                        инструменты</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_sinema" name="id_sinema">
+                                    <label class="ps_page2__label" for="id_sinema">Кино</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_theatre" name="id_theatre">
+                                    <label class="ps_page2__label" for="id_theatre">Театр</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_painting" name="id_painting">
+                                    <label class="ps_page2__label" for="id_painting">Живопись и скульптура</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox" id="id_foto"
+                                        name="id_foto">
+                                    <label class="ps_page2__label" for="id_foto">Фотография</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_culture" name="id_culture">
+                                    <label class="ps_page2__label" for="id_culture">Культура и искусство </label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_dances" name="id_dances">
+                                    <label class="ps_page2__label" for="id_dances">Танцы</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_history" name="id_history">
+                                    <label class="ps_page2__label" for="id_history">История и философия</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_pets" name="id_pets">
+                                    <label class="ps_page2__label" for="id_pets">Домашние животные</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_fitnes" name="id_fitnes">
+                                    <label class="ps_page2__label" for="id_fitnes">Спорт и фитнес</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_travel" name="id_travel">
+                                    <label class="ps_page2__label" for="id_travel">Путешествия</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_tourism" name="id_tourism">
+                                    <label class="ps_page2__label" for="id_tourism">Туризм и походы</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_computer-games" name="id_computer-games">
+                                    <label class="ps_page2__label" for="id_computer-games">Компьютерные игры</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_chess" name="id_chess">
+                                    <label class="ps_page2__label" for="id_chess">Шахматы и настольные игры</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_fashion" name="id_fashion">
+                                    <label class="ps_page2__label" for="id_fashion">Мода</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_book" name="id_book">
+                                    <label class="ps_page2__label" for="id_book">Книги и чтение</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_languages" name="id_languages">
+                                    <label class="ps_page2__label" for="id_languages">Иностранные языки</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_handmade" name="id_handmade">
+                                    <label class="ps_page2__label" for="id_handmade">Хэнд-мейд</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_cooking" name="id_cooking">
+                                    <label class="ps_page2__label" for="id_cooking">Кулинария</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_spiritual_practices" name="id_spiritual_practices">
+                                    <label class="ps_page2__label" for="id_spiritual_practices">Духовные практики и саморазвитие (йога,медитация и пр.)</label>
+                                </div>
+                                <!-- <div>
+                                    <input type="checkbox" form="user-profile" class="ps_page2__checkbox"
+                                        id="id_other" name="id_other">
+                                    <label class="ps_page2__label" for="id_other">Другое</label>
+                                </div> -->
+                            </div>
+                        </div>
+                        <fieldset form="ps_comfort-work" class="ps_page__item ps_page__fieldset">
+                            <legend class="ps_page__item_row">О чем вам было бы интересно пообщаться с собеседниками?</legend>
+                            <textarea name="" id="" cols="90" rows="20"></textarea>
+                        </fieldset>
+                        <div class="ps_page2__button">
+                            
+                            <div class="ps_page__item ps_page__item-onsward">
+                                <button form="ps_comfort-work" class="ps_page__button-onsward"
+                                    type="submit">Отправить</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="ps_footer">
+        <div class="ps_footer__search">
+            <form class="ps_footer__form" action="" method="">
+                <input class="ps_footer__input" type="search" placeholder="Я ищу">
+                <button class="ps_footer__button">Поиск</button>
+            </form>
+            <div class="ps_footer__blok ps_footer__blok-1">
+                <h3 class="ps_footer__h3">Свежие записи</h3>
+                <div class="ps_footer__coment">Привет, мир!</div>
+                <div class="ps_footer__coment">Привет, мир!</div>
+                <div class="ps_footer__coment">Привет, мир!</div>
+            </div>
+            <div class="ps_footer__blok ps_footer__blok-2">
+                <h3 class="ps_footer__h3">Свежие коментарии</h3>
+                <div class="ps_footer__coment">Автор комментария к Привет,мир!</div>
+                <div class="ps_footer__coment">Автор комментария к Привет,мир!</div>
+                <div class="ps_footer__coment">Автор комментария к Привет,мир!</div>
+            </div>
+        </div>
+        <div class="ps_footer__line"></div>
+        <div class="ps_footer__about">
+            <div class="ps_footer__logo">
+                <div class="ps_logo-1__footer">
+                    <img src="../img/STEP UP_white.png" alt="logo">
+                    <div class="ps_logo-2"><img src="../img/STEP UP_white_letterU.png" alt="logo"></div>
+                </div>
+                <h5 class="ps_menu__inner_company-name">| A FLUENTRUSSIA Company</h5>
+            </div>
+            <div class="ps_footer__copyright">Сайт работает на <a class="ps_footer__link" href="#">WordPress</a>.
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
