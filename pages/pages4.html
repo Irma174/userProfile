@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета пользователя</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/media.css">
+</head>
+
+<body>
+    <header class="ps_header">
+        <div class="ps_menu__header">
+            <div class="ps_menu__inner">
+                <div class="ps_menu__logo">
+                    <div class="ps_logo-1__menu">
+                        <img src="../img/STEP UP.png" alt="logo">
+                        <div class="ps_logo-2"><img src="../img/STEP UP_U.png" alt="logo"></div>
+                    </div>
+                    <h5 class="ps_menu__inner_company-name">| A FLUENTRUSSIA Company</h5>
+                </div>
+
+                <ul class="ps_menu__nav">
+                    <li><a href="#">Как это работает</a></li>
+                    <li><a href="#">Платформа</a></li>
+                    <li><a href="#">Для Бизнеса</a></li>
+                    <li>Тренинговые сессии</li>
+                    <li>Сообщество</li>
+                    <li><a href="#">Наша миссия</a></li>
+                </ul>
+                <div class="ps__menu_line"></div>
+                <div class="ps_menu__icon">
+                    <a href="tel:+78120000000"><img class="ps_menu__icon-phone" src="../img/Icon_phone.png"
+                            alt="Icon_phone"></a>
+                    <a href="#"><img class="ps_menu__icon-arrow" src="../img/Icon_arrow.png" alt="Icon_arrow"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="ps_main ps_main__page2">
+            <section class="ps_page">
+                <div class="ps_page__menu">
+                    <p class="ps_page__title-menu"><a href="#">Главная</a>/Подбор психолога</p>
+                    <h1 class="ps_page__title">Анкета пользователя</h1>
+                    <h2 class="ps_page__subtitle">Личные вопросы</h2>
+                    <form class="ps_page__2" id="ps_comfort-work">
+                        <div class="ps_page__grid">
+                            <div class="ps_page__item ">
+                                <label for="name" class="ps_page__item_row">Фамилия, Имя </label>
+                                <input class="ps_page__input" type="text" id="name" name="ps_name"
+                                    placeholder="Иван Иванов" required>
+                            </div>
+                            <div class="ps_page__item">
+                                <label for="age" class="ps_page__item_row">Дата рождения</label>
+                                <input class="ps_page__input" type="number" id="age" name="ps_age"
+                                    placeholder="01.01.2000" max="80" required>
+                            </div>
+                            <div class="ps_page__item">
+                                <label for="town" class="ps_page__item_row">Страна и город проживания </label>
+                                <select id="town" name="ps_town" class="ps_page__input ps_page__item-clock form-select">
+                                    <option value="Москва" selected=""> Москва</option>
+                                    <option>---</option>
+                                    <option value="Калининград">Калининград</option>
+                                    <option value="Архангельск">Архангельск</option>
+                                    <option value="Астрахань">Астрахань</option>
+                                    <option value="Белгород">Белгород</option>
+                                    <option value="Брянск">Брянск</option>
+                                    <option value="Владикавказ">Владикавказ</option>
+                                    <option value="Владимир">Владимир</option>
+                                    <option value="Волгоград">Волгоград</option>
+                                    <option value="Вологда">Вологда</option>
+                                    <option value="Воронеж">Воронеж</option>
+                                    <option value="Грозный">Грозный</option>
+                                    <option value="Иваново">Иваново</option>
+                                    <option value="Ижевск">Ижевск</option>
+                                    <option value="Йошкар-Ола">Йошкар-Ола</option>
+                                    <option value="Казань">Казань</option>
+                                    <option value="Калуга">Калуга</option>
+                                    <option value="Киров">Киров</option>
+                                    <option value="Кострома">Кострома</option>
+                                    <option value="Краснодар">Краснодар</option>
+                                    <option value="Курск">Курск</option>
+                                    <option value="Липецк">Липецк</option>
+                                    <option value="Махачкала">Махачкала</option>
+                                    <option value="Мурманск">Мурманск</option>
+                                    <option value="Назрань">Назрань</option>
+                                    <option value="Нальчик">Нальчик</option>
+                                    <option value="Нарьян-Мар">Нарьян-Мар</option>
+                                    <option value="Нижний Новгород">Нижний Новгород</option>
+                                    <option value="Новгород">Новгород</option>
+                                    <option value="Орёл">Орёл</option>
+                                    <option value="Пенза">Пенза</option>
+                                    <option value="Петрозаводск">Петрозаводск</option>
+                                    <option value="Псков">Псков</option>
+                                    <option value="Ростов-на-Дону">Ростов-на-Дону</option>
+                                    <option value="Рязань">Рязань</option>
+                                    <option value="Самара">Самара</option>
+                                    <option value="Санкт-Петербург">Санкт-Петербург</option>
+                                    <option value="Саранск">Саранск</option>
+                                    <option value="Саратов">Саратов</option>
+                                    <option value="Смоленск">Смоленск</option>
+                                    <option value="Ставрополь">Ставрополь</option>
+                                    <option value="Сыктывкар">Сыктывкар</option>
+                                    <option value="Тамбов">Тамбов</option>
+                                    <option value="Тверь">Тверь</option>
+                                    <option value="Тула">Тула</option>
+                                    <option value="Ульяновск">Ульяновск</option>
+                                    <option value="Чебоксары">Чебоксары</option>
+                                    <option value="Черкесск">Черкесск</option>
+                                    <option value="Элиста">Элиста</option>
+                                    <option value="Ярославль">Ярославль</option>
+                                    <option value="Майкоп">Майкоп</option>
+                                    <option value="Екатеринбург">Екатеринбург</option>
+                                    <option value="Кудымкар">Кудымкар</option>
+                                    <option value="Курган">Курган</option>
+                                    <option value="Оренбург">Оренбург</option>
+                                    <option value="Пермь">Пермь</option>
+                                    <option value="Салехард">Салехард</option>
+                                    <option value="Тюмень">Тюмень</option>
+                                    <option value="Уфа">Уфа</option>
+                                    <option value="Ханты-Мансийск">Ханты-Мансийск</option>
+                                    <option value="Челябинск">Челябинск</option>
+                                    <option value="Барнаул">Барнаул</option>
+                                    <option value="Горно-Алтайск">Горно-Алтайск</option>
+                                    <option value="Новосибирск">Новосибирск</option>
+                                    <option value="Омск">Омск</option>
+                                    <option value="Томск">Томск</option>
+                                    <option value="Абакан">Абакан</option>
+                                    <option value="Дудинка">Дудинка</option>
+                                    <option value="Кемерово">Кемерово</option>
+                                    <option value="Красноярск">Красноярск</option>
+                                    <option value="Кызыл">Кызыл</option>
+                                    <option value="Тура">Тура</option>
+                                    <option value="Иркутск">Иркутск</option>
+                                    <option value="Улан-Удэ">Улан-Удэ</option>
+                                    <option value="Усть-Ордынский">Усть-Ордынский</option>
+                                    <option value="Чита">Чита</option>
+                                    <option value="Агинское">Агинское</option>
+                                    <option value="Благовещенск">Благовещенск</option>
+                                    <option value="Якутск">Якутск</option>
+                                    <option value="Якутск">Якутск</option>
+                                    <option value="Владивосток">Владивосток</option>
+                                    <option value="Магадан">Магадан</option>
+                                    <option value="Хабаровск">Хабаровск</option>
+                                    <option value="Южно-Сахалинск">Южно-Сахалинск</option>
+                                    <option value="Анадырь">Анадырь</option>
+                                    <option value="Палана">Палана</option>
+                                    <option value="Петропавловск-Камчатский">Петропавловск-Камчатский</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="ps_page2__questionary-title">
+                            <p class="ps_page2__questionary-name">Сфера профессиональной деятельности</p>
+                        </div>
+                        <div class="ps_page2__body">
+                            <div class="ps_page2__questionary-body ps_page4__form-condition">
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="alcohol" name="alcohol">
+                                    <label class="ps_page2__label" for="alcohol">IT</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="socialNetworks" name="socialNetworks">
+                                    <label class="ps_page2__label" for="socialNetworks">Зависимость от социальных
+                                        сетей</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="health" name="health">
+                                    <label class="ps_page2__label" for="health">Педагогика и образование</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="selfrating" name="selfrating">
+                                    <label class="ps_page2__label" for="selfrating">HR (управление
+                                        персоналом)</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox" id="alone"
+                                        name="alone">
+                                    <label class="ps_page2__label" for="alone">Маркетинг</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox" id="panic"
+                                        name="panic">
+                                    <label class="ps_page2__label" for="panic">Менеджмент</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox" id="mood"
+                                        name="mood">
+                                    <label class="ps_page2__label" for="mood">ТОП-менеджмент</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox" id="sleep"
+                                        name="sleep">
+                                    <label class="ps_page2__label" for="sleep"> Психология</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="irritability" name="irritability">
+                                    <label class="ps_page2__label" for="irritability">Дизайн и архитектура</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox" id="food"
+                                        name="food">
+                                    <label class="ps_page2__label" for="food">Туризм</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="stress" name="stress">
+                                    <label class="ps_page2__label" for="stress">Наука</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox" id="alarm"
+                                        name="alarm">
+                                    <label class="ps_page2__label" for="alarm">Юриспруденция</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="energy" name="energy">
+                                    <label class="ps_page2__label" for="energy">Бухгалтерия и финансы</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Строительство</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Недвижимость</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Журналистика и копирайтинг</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Логистика и транспорт</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Лингвистика и перевод</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Инвестиции</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Спорт и фитнес</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Торговля и закупки</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Продажи</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Страхование</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Медицина и фармацевтика</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Искусство и масс-медиа</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Административный персонал</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Рабочий персонал</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Предпринимательство</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Другое</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ps_page__item ps_page__item-position">
+                            <label for="position" class="ps_page__item_row">Должность </label>
+                            <input class="ps_page__input" type="text" id="position" name="ps_position"
+                                placeholder="Менеджер" required>
+                        </div>
+                        <div class="ps_page2__questionary ">
+                            <div class="ps_page2__questionary-title">
+                                <p class="ps_page2__questionary-name">Цели</p>
+                            </div>
+                            <div class="ps_page2__questionary-body ps_page2__form-connection ps_page2__questionary-purpose">
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="socium" name="socium">
+                                    <label class="ps_page2__label" for="socium">Познакомиться с новыми людьми и расшить круг общения</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="family" name="family">
+                                    <label class="ps_page2__label" for="family">Узнать о новых проектах и компаниях</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox" id="child"
+                                        name="child">
+                                    <label class="ps_page2__label" for="child">Развитие в своей профессиональной сфере и карьерный рост</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="partner" name="partner">
+                                    <label class="ps_page2__label" for="partnre">Сменить сферу деятельности или работу</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox" id="sex"
+                                        name="sex">
+                                    <label class="ps_page2__label" for="sex">Улучшить отношения с коллегами и работу в команде</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="orientation" name="orientation">
+                                    <label class="ps_page2__label" for="orientation">Улучшить soft skills</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="orientation" name="orientation">
+                                    <label class="ps_page2__label" for="orientation">Основать свой проект или стартап</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="orientation" name="orientation">
+                                    <label class="ps_page2__label" for="orientation">Найти инвесторов для своего проекта</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="orientation" name="orientation">
+                                    <label class="ps_page2__label" for="orientation">Инвестировать в интересный проект</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="orientation" name="orientation">
+                                    <label class="ps_page2__label" for="orientation">Найти новых сотрудников в команду</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="orientation" name="orientation">
+                                    <label class="ps_page2__label" for="orientation">Организация событий и мероприятий</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="orientation" name="orientation">
+                                    <label class="ps_page2__label" for="orientation">Другое</label>
+                                </div>
+                            </div>
+                        </div>
+                        <fieldset form="ps_comfort-work" class="ps_page__item ps_page__fieldset">
+                            <legend class="ps_page__item_row">Вы больше заинтересованы в знакомствах с новыми людьми из вашей профессиональной сферы или из других?</legend>
+                            <div class="ps_page__button ps_page__button_comfort-work">
+                                <div class="ps_page__btn">
+                                    <input class="ps_page__input ps_page__input-choice" type="radio" id="anyway"
+                                        name="ps_choice">
+                                    <label for="anyway" class="ps_page__label-choice">Из своей профессиональной сферы</label>
+                                </div>
+                                <div class="ps_page__btn">
+                                    <input class="ps_page__input ps_page__input-choice" type="radio" id="man"
+                                        name="ps_choice">
+                                    <label for="man" class="ps_page__label-choice">Из других</label>
+                                </div>
+                                <div class="ps_page__btn">
+                                    <input class="ps_page__input ps_page__input-choice" type="radio" id="woman"
+                                        name="ps_choice">
+                                    <label for="woman" class="ps_page__label-choice">Оба варианта</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div class="ps_page2__questionary-title">
+                            <p class="ps_page2__questionary-name">Выберите ваши основные профессиональные интересы </p>
+                        </div>
+                        <div class="ps_page2__body">
+                            <div class="ps_page2__questionary-body ps_page4__form-prof">
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="alcohol" name="alcohol">
+                                    <label class="ps_page2__label" for="alcohol">Предпренимательство</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="socialNetworks" name="socialNetworks">
+                                    <label class="ps_page2__label" for="socialNetworks">Маркетинг</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="health" name="health">
+                                    <label class="ps_page2__label" for="health">Продажи</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="selfrating" name="selfrating">
+                                    <label class="ps_page2__label" for="selfrating">Консалтинг</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox" id="alone"
+                                        name="alone">
+                                    <label class="ps_page2__label" for="alone">Недвижимость</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox" id="panic"
+                                        name="panic">
+                                    <label class="ps_page2__label" for="panic">Торговля и закупки</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox" id="mood"
+                                        name="mood">
+                                    <label class="ps_page2__label" for="mood">Инвестиции</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox" id="sleep"
+                                        name="sleep">
+                                    <label class="ps_page2__label" for="sleep">Экономика</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="irritability" name="irritability">
+                                    <label class="ps_page2__label" for="irritability">Финансы и финтех</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox" id="food"
+                                        name="food">
+                                    <label class="ps_page2__label" for="food">Криптовалюта</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="stress" name="stress">
+                                    <label class="ps_page2__label" for="stress">ТОП-менеджмент</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox" id="alarm"
+                                        name="alarm">
+                                    <label class="ps_page2__label" for="alarm">Удаленная работа</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="energy" name="energy">
+                                    <label class="ps_page2__label" for="energy">Информационные технологии и программирование</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Геймдев</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Data Science и Machine Learning</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Искусственный интеллект и нейросети
+                                        </label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Техника и электроника</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Обучение и образование</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Юриспруденция</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Наука и технологии</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Строительство</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Психология</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Журналистика и копирайтинг</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Логистика и транспорт</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Управление персоналом</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Управление продуктом и проектами</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Soft Skills</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Лидерство</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Лингвистика и перевод</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Дизайн и архитектура</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Социальные проекты и волонтерство</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Медицина и фармацевтика</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Туризм и гостиничный бизнес</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Рестораны и развлечения</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Организация ивентов</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Спорт и фитнес</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="emotion" name="emotion">
+                                    <label class="ps_page2__label" for="emotion">Другое</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ps_page2__questionary">
+                            <div class="ps_page2__questionary-title">
+                                <p class="ps_page2__questionary-name">Выберите ваши основные личные интересы</p>
+                            </div>
+                            <div class="ps_page2__questionary-body ps_page2__form-job ps_page2__form-interests">
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="motivation" name="motivation">
+                                    <label class="ps_page2__label" for="motivation">Музыка и музыкальные инструменты</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="ambiyion" name="ambiyion">
+                                    <label class="ps_page2__label" for="ambiyion">Кино</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="yourself" name="yourself">
+                                    <label class="ps_page2__label" for="yourself">Театр</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="procrastination" name="job">
+                                    <label class="ps_page2__label" for="procrastination">Живопись и скульптура</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox" id="work"
+                                        name="work">
+                                    <label class="ps_page2__label" for="work">Фотография</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="burnout" name="burnout">
+                                    <label class="ps_page2__label" for="burnout">Культура и искусство </label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="burnout" name="burnout">
+                                    <label class="ps_page2__label" for="burnout">Танцы</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="burnout" name="burnout">
+                                    <label class="ps_page2__label" for="burnout">История и философия</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="burnout" name="burnout">
+                                    <label class="ps_page2__label" for="burnout">Домашние животные</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="burnout" name="burnout">
+                                    <label class="ps_page2__label" for="burnout">Спорт и фитнес</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="burnout" name="burnout">
+                                    <label class="ps_page2__label" for="burnout">Путешествия</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="burnout" name="burnout">
+                                    <label class="ps_page2__label" for="burnout">Туризм и походы</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="burnout" name="burnout">
+                                    <label class="ps_page2__label" for="burnout">Компьютерные игры</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="burnout" name="burnout">
+                                    <label class="ps_page2__label" for="burnout">Шахматы и настольные игры</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="burnout" name="burnout">
+                                    <label class="ps_page2__label" for="burnout">Мода</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="burnout" name="burnout">
+                                    <label class="ps_page2__label" for="burnout">Книги и чтение</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="burnout" name="burnout">
+                                    <label class="ps_page2__label" for="burnout">Иностранные языки</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="burnout" name="burnout">
+                                    <label class="ps_page2__label" for="burnout">Хэнд-мейд</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="burnout" name="burnout">
+                                    <label class="ps_page2__label" for="burnout">Кулинария</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="burnout" name="burnout">
+                                    <label class="ps_page2__label" for="burnout">Духовные практики и саморазвитие (йога, медитация и пр.)</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" form="formAcquaintance" class="ps_page2__checkbox"
+                                        id="burnout" name="burnout">
+                                    <label class="ps_page2__label" for="burnout">Другое</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+            
+                <fieldset form="ps_comfort-work" class="ps_page__item ps_page__fieldset">
+                    <legend class="ps_page__item_row">Предпочтения по времени сессии</legend>
+                    <div class="ps_page__button ps_page__button_comfort-work">
+                        <div class="ps_page__btn">
+                            <input class="ps_page__input ps_page__input-choice" type="radio" id="anytime"
+                                name="ps_choice-time">
+                            <label for="anytime" class="ps_page__label-choice">Любое</label>
+                        </div>
+                        <div class="ps_page__btn">
+                            <input class="ps_page__input ps_page__input-choice" type="radio" id="nearest"
+                                name="ps_choice-time">
+                            <label for="nearest" class="ps_page__label-choice">Ближайшее</label>
+                        </div>
+                        <div class="ps_page__btn">
+                            <input class="ps_page__input ps_page__input-choice" type="radio" id="exact"
+                                name="ps_choice-time">
+                            <label for="exact" class="ps_page__label-choice">Конкретное</label>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="ps_page2__button">
+                    <div class="ps_page__item ps_page__item-onsward">
+                        <button class="ps_page__button-onsward rs_page__button-return" type="button">Назад</button>
+                    </div>
+                    <div class="ps_page__item ps_page__item-onsward">
+                        <button form="ps_comfort-work" class="ps_page__button-onsward" type="submit">Далее</button>
+                    </div>
+                </div>
+                </form>
+        </div>
+        </section>
+        </div>
+    </main>
+    <!-- <main>
+        <div class="ps_main">
+            <section class="ps_page">
+                <div class="ps_page__menu">
+                    <p class="ps_page__title-menu"><a href="#">Главная</a>/Подбор психолога</p>
+                    <h1 class="ps_page__title">Анкета пользователя</h1>
+                    
+                    <form class="ps_page__grid" action="" id="formAcquaintance">
+                        <div class="ps_page__item ">
+                            <label for="name" class="ps_page__item_row">Фамилия, Имя </label>
+                            <input class="ps_page__input" type="text" id="name" name="ps_name" placeholder="Иван Иванов" required>
+                        </div>
+                        <div class="ps_page__item">
+                            <label for="age" class="ps_page__item_row">Дата рождения</label>
+                            <input class="ps_page__input" type="number" id="age" name="ps_age" placeholder="01.01.2000" max="80" required>
+                        </div>
+                        <!-- <fieldset form="formAcquaintance" class="ps_page__item ps_page__fieldset" >
+                            <legend class="ps_page__item_row">Был ли у вас опыт психотерапии?</legend>
+                            <div class="ps_page__button">
+                                <div class="ps_page__btn">
+                                    <input class="ps_page__input ps_page__input-Yes" type="radio" id="Yes" name="ps_therapy">
+                                    <label for="Yes" class="ps_page__label-Yes">Да</label>
+                                </div>
+                                <div class="ps_page__btn">
+                                    <input class="ps_page__input ps_page__input-No" type="radio" id="No" name="ps_therapy">
+                                    <label for="No" class="ps_page__label-No">Нет</label>
+                                </div>
+                            </div>
+                        </fieldset> -->
+    <!-- <div class="ps_page__item">
+                            <label for="email" class="ps_page__item_row">E-mail</label>
+                            <input class="ps_page__input" type="email" id="email" name="ps_email" placeholder="email@email.com" required>
+                        </div> -->
+
+
+    <!-- <div class="ps_page__item ps_page__item-onsward">
+                            <button form="formAcquaintance" class="ps_page__button-onsward" type="submit">Далее</button>
+                        </div> -->
+    </form>
+    </div>
+    </section>
+    </div>
+    </main> -->
+    <footer class="ps_footer">
+        <div class="ps_footer__search">
+            <form class="ps_footer__form" action="" method="">
+                <input class="ps_footer__input" type="search" placeholder="Я ищу">
+                <button class="ps_footer__button">Поиск</button>
+            </form>
+            <div class="ps_footer__blok ps_footer__blok-1">
+                <h3 class="ps_footer__h3">Свежие записи</h3>
+                <div class="ps_footer__coment">Привет, мир!</div>
+                <div class="ps_footer__coment">Привет, мир!</div>
+                <div class="ps_footer__coment">Привет, мир!</div>
+            </div>
+            <div class="ps_footer__blok ps_footer__blok-2">
+                <h3 class="ps_footer__h3">Свежие коментарии</h3>
+                <div class="ps_footer__coment">Автор комментария к Привет,мир!</div>
+                <div class="ps_footer__coment">Автор комментария к Привет,мир!</div>
+                <div class="ps_footer__coment">Автор комментария к Привет,мир!</div>
+            </div>
+        </div>
+        <div class="ps_footer__line"></div>
+        <div class="ps_footer__about">
+            <div class="ps_footer__logo">
+                <div class="ps_logo-1__footer">
+                    <img src="../img/STEP UP_white.png" alt="logo">
+                    <div class="ps_logo-2"><img src="../img/STEP UP_white_letterU.png" alt="logo"></div>
+                </div>
+                <h5 class="ps_menu__inner_company-name">| A FLUENTRUSSIA Company</h5>
+            </div>
+            <div class="ps_footer__copyright">Сайт работает на <a class="ps_footer__link" href="#">WordPress</a>.
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

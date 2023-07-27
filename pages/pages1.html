@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подбор психолога_1</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/media.css">
+</head>
+
+<body>
+    <header class="ps_header">
+        <div class="ps_menu__header">
+            <div class="ps_menu__inner">
+                <div class="ps_menu__logo">
+                    <div class="ps_logo-1__menu">
+                        <img src="../img/STEP UP.png" alt="logo">
+                        <div class="ps_logo-2"><img src="../img/STEP UP_U.png" alt="logo"></div>
+                    </div>
+                    <h5 class="ps_menu__inner_company-name">| A FLUENTRUSSIA Company</h5>
+                </div>
+
+                <ul class="ps_menu__nav">
+                    <li><a href="#">Как это работает</a></li>
+                    <li><a href="#">Платформа</a></li>
+                    <li><a href="#">Для Бизнеса</a></li>
+                    <li>Тренинговые сессии</li>
+                    <li>Сообщество</li>
+                    <li><a href="#">Наша миссия</a></li>
+                </ul>
+                <div class="ps__menu_line"></div>
+                <div class="ps_menu__icon">
+                    <a href="tel:+78120000000"><img class="ps_menu__icon-phone" src="../img/Icon_phone.png"
+                            alt="Icon_phone"></a>
+                    <a href="#"><img class="ps_menu__icon-arrow" src="../img/Icon_arrow.png" alt="Icon_arrow"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="ps_main">
+            <section class="ps_page">
+                <div class="ps_page__menu">
+                    <p class="ps_page__title-menu"><a href="#">Главная</a>/Подбор психолога</p>
+                    <h1 class="ps_page__title">Подбор психолога</h1>
+                    <h2 class="ps_page__subtitle">Общие вопросы</h2>
+                    <form class="ps_page__grid" action="" id="formAcquaintance">
+                        <div class="ps_page__item ">
+                            <label for="name" class="ps_page__item_row">Как вас зовут?</label>
+                            <input class="ps_page__input" type="text" id="name" name="ps_name" placeholder="Иван Иванов" required>
+                        </div>
+                        <div class="ps_page__item">
+                            <label for="age" class="ps_page__item_row">Сколько вам лет?</label>
+                            <input class="ps_page__input" type="number" id="age" name="ps_age" placeholder="25" max="80" required>
+                        </div>
+                        <fieldset form="formAcquaintance" class="ps_page__item ps_page__fieldset" >
+                            <legend class="ps_page__item_row">Был ли у вас опыт психотерапии?</legend>
+                            <div class="ps_page__button">
+                                <div class="ps_page__btn">
+                                    <input class="ps_page__input ps_page__input-Yes" type="radio" id="Yes" name="ps_therapy">
+                                    <label for="Yes" class="ps_page__label-Yes">Да</label>
+                                </div>
+                                <div class="ps_page__btn">
+                                    <input class="ps_page__input ps_page__input-No" type="radio" id="No" name="ps_therapy">
+                                    <label for="No" class="ps_page__label-No">Нет</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div class="ps_page__item">
+                            <label for="email" class="ps_page__item_row">E-mail</label>
+                            <input class="ps_page__input" type="email" id="email" name="ps_email" placeholder="email@email.com" required>
+                        </div>
+                        <div class="ps_page__item">
+                            <label for="clock" class="ps_page__item_row">Часовой пояс</label>
+                            <select id="clock" name="ps_timezone" class="ps_page__input ps_page__item-clock" >
+                                <option value="Москва" selected="">GMT+03:00 Москва</option>
+                                <option>---</option>
+                                <option value="Калининград">GMT+02:00 Калининград</option>
+                                <option value="Архангельск">GMT+03:00 Архангельск</option>
+                                <option value="Астрахань">GMT+03:00 Астрахань</option>
+                                <option value="Белгород">GMT+03:00 Белгород</option>
+                                <option value="Брянск">GMT+03:00 Брянск</option>
+                                <option value="Владикавказ">GMT+03:00 Владикавказ</option>
+                                <option value="Владимир">GMT+03:00 Владимир</option>
+                                <option value="Волгоград">GMT+03:00 Волгоград</option>
+                                <option value="Вологда">GMT+03:00 Вологда</option>
+                                <option value="Воронеж">GMT+03:00 Воронеж</option>
+                                <option value="Грозный">GMT+03:00 Грозный</option>
+                                <option value="Иваново">GMT+03:00 Иваново</option>
+                                <option value="Ижевск">GMT+03:00 Ижевск</option>
+                                <option value="Йошкар-Ола">GMT+03:00 Йошкар-Ола</option>
+                                <option value="Казань">GMT+03:00 Казань</option>
+                                <option value="Калуга">GMT+03:00 Калуга</option>
+                                <option value="Киров">GMT+03:00 Киров</option>
+                                <option value="Кострома">GMT+03:00 Кострома</option>
+                                <option value="Краснодар">GMT+03:00 Краснодар</option>
+                                <option value="Курск">GMT+03:00 Курск</option>
+                                <option value="Липецк">GMT+03:00 Липецк</option>
+                                <option value="Махачкала">GMT+03:00 Махачкала</option>
+                                <option value="Мурманск">GMT+03:00 Мурманск</option>
+                                <option value="Назрань">GMT+03:00 Назрань</option>
+                                <option value="Нальчик">GMT+03:00 Нальчик</option>
+                                <option value="Нарьян-Мар">GMT+03:00 Нарьян-Мар</option>
+                                <option value="Нижний Новгород">GMT+03:00 Нижний Новгород</option>
+                                <option value="Новгород">GMT+03:00 Новгород</option>
+                                <option value="Орёл">GMT+03:00 Орёл</option>
+                                <option value="Пенза">GMT+03:00 Пенза</option>
+                                <option value="Петрозаводск">GMT+03:00 Петрозаводск</option>
+                                <option value="Псков">GMT+03:00 Псков</option>
+                                <option value="Ростов-на-Дону">GMT+03:00 Ростов-на-Дону</option>
+                                <option value="Рязань">GMT+03:00 Рязань</option>
+                                <option value="Самара">GMT+03:00 Самара</option>
+                                <option value="Санкт-Петербург">GMT+03:00 Санкт-Петербург</option>
+                                <option value="Саранск">GMT+03:00 Саранск</option>
+                                <option value="Саратов">GMT+03:00 Саратов</option>
+                                <option value="Смоленск">GMT+03:00 Смоленск</option>
+                                <option value="Ставрополь">GMT+03:00 Ставрополь</option>
+                                <option value="Сыктывкар">GMT+03:00 Сыктывкар</option>
+                                <option value="Тамбов">GMT+03:00 Тамбов</option>
+                                <option value="Тверь">GMT+03:00 Тверь</option>
+                                <option value="Тула">GMT+03:00 Тула</option>
+                                <option value="Ульяновск">GMT+03:00 Ульяновск</option>
+                                <option value="Чебоксары">GMT+03:00 Чебоксары</option>
+                                <option value="Черкесск">GMT+03:00 Черкесск</option>
+                                <option value="Элиста">GMT+03:00 Элиста</option>
+                                <option value="Ярославль">GMT+03:00 Ярославль</option>
+                                <option value="Майкоп">GMT+04:00 Майкоп</option>
+                                <option value="Екатеринбург">GMT+05:00 Екатеринбург</option>
+                                <option value="Кудымкар">GMT+05:00 Кудымкар</option>
+                                <option value="Курган">GMT+05:00 Курган</option>
+                                <option value="Оренбург">GMT+05:00 Оренбург</option>
+                                <option value="Пермь">GMT+05:00 Пермь</option>
+                                <option value="Салехард">GMT+05:00 Салехард</option>
+                                <option value="Тюмень">GMT+05:00 Тюмень</option>
+                                <option value="Уфа">GMT+05:00 Уфа</option>
+                                <option value="Ханты-Мансийск">GMT+05:00 Ханты-Мансийск</option>
+                                <option value="Челябинск">GMT+05:00 Челябинск</option>
+                                <option value="Барнаул">GMT+06:00 Барнаул</option>
+                                <option value="Горно-Алтайск">GMT+06:00 Горно-Алтайск</option>
+                                <option value="Новосибирск">GMT+06:00 Новосибирск</option>
+                                <option value="Омск">GMT+06:00 Омск</option>
+                                <option value="Томск">GMT+06:00 Томск</option>
+                                <option value="Абакан">GMT+07:00 Абакан</option>
+                                <option value="Дудинка">GMT+07:00 Дудинка</option>
+                                <option value="Кемерово">GMT+07:00 Кемерово</option>
+                                <option value="Красноярск">GMT+07:00 Красноярск</option>
+                                <option value="Кызыл">GMT+07:00 Кызыл</option>
+                                <option value="Тура">GMT+07:00 Тура</option>
+                                <option value="Иркутск">GMT+08:00 Иркутск</option>
+                                <option value="Улан-Удэ">GMT+08:00 Улан-Удэ</option>
+                                <option value="Усть-Ордынский">GMT+08:00 Усть-Ордынский</option>
+                                <option value="Чита">GMT+08:00 Чита</option>
+                                <option value="Агинское">GMT+09:00 Агинское</option>
+                                <option value="Благовещенск">GMT+09:00 Благовещенск</option>
+                                <option value="Якутск">GMT+09:00 Якутск</option>
+                                <option value="Якутск">GMT+09:00 Якутск</option>
+                                <option value="Владивосток">GMT+10:00 Владивосток</option>
+                                <option value="Магадан">GMT+10:00 Магадан</option>
+                                <option value="Хабаровск">GMT+10:00 Хабаровск</option>
+                                <option value="Южно-Сахалинск">GMT+10:00 Южно-Сахалинск</option>
+                                <option value="Анадырь">GMT+12:00 Анадырь</option>
+                                <option value="Палана">GMT+12:00 Палана</option>
+                                <option value="Петропавловск-Камчатский">GMT+12:00 Петропавловск-Камчатский</option>
+                            </select>
+                        </div>
+                        <div class="ps_page__item ps_page__item-onsward">
+                            <button form="formAcquaintance" class="ps_page__button-onsward" type="submit">Далее</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="ps_footer">
+        <div class="ps_footer__search">
+            <form class="ps_footer__form" action="" method="">
+                <input class="ps_footer__input" type="search" placeholder="Я ищу">
+                <button class="ps_footer__button">Поиск</button>
+            </form>
+            <div class="ps_footer__blok ps_footer__blok-1">
+                <h3 class="ps_footer__h3">Свежие записи</h3>
+                <div class="ps_footer__coment">Привет, мир!</div>
+                <div class="ps_footer__coment">Привет, мир!</div>
+                <div class="ps_footer__coment">Привет, мир!</div>
+            </div>
+            <div class="ps_footer__blok ps_footer__blok-2">
+                <h3 class="ps_footer__h3">Свежие коментарии</h3>
+                <div class="ps_footer__coment">Автор комментария к Привет,мир!</div>
+                <div class="ps_footer__coment">Автор комментария к Привет,мир!</div>
+                <div class="ps_footer__coment">Автор комментария к Привет,мир!</div>
+            </div>
+        </div>
+        <div class="ps_footer__line"></div>
+        <div class="ps_footer__about">
+            <div class="ps_footer__logo">
+                <div class="ps_logo-1__footer">
+                    <img src="../img/STEP UP_white.png" alt="logo">
+                    <div class="ps_logo-2"><img src="../img/STEP UP_white_letterU.png" alt="logo"></div>
+                </div>
+                <h5 class="ps_menu__inner_company-name">| A FLUENTRUSSIA Company</h5>
+            </div>
+            <div class="ps_footer__copyright">Сайт работает на <a class="ps_footer__link" href="#">WordPress</a>.
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
